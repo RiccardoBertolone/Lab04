@@ -6,6 +6,13 @@ public class TestModel {
 		
 		Model model = new Model();
 		
+		Studente s = model.getStudente(146101) ;
+		
+		if (s == null)
+			System.out.println("E' null!!!");
+		
+		System.out.println(s) ;
+		
 		/*
 		 * 	Write here your test model
 		 */
